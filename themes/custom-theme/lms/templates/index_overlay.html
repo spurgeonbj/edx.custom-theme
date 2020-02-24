@@ -1,10 +1,5 @@
-<%page expression_filter="h"/>
-
-<%!
-from django.utils.translation import ugettext as _
-from openedx.core.djangolib.markup import HTML, Text
-%>
-
-## Translators: 'Open edX' is a registered trademark, please keep this untranslated. See http://open.edx.org for more information.
-<h3>Welcome to All Peoples Church Bible College Online Portal</h3>
-## Translators: 'Open edX' is a registered trademark, please keep this untranslated. See http://open.edx.org for more information.
+<%namespace name='static' file='static_content.html'/>
+<div class="row">
+    <h6>All Peoples Church Bible College Online Portal</h6>
+    <img src="${static.url("images/church_in_bangalore_bible_college-July-2020.jpg")}" />
+</div>
